@@ -1,0 +1,3 @@
+all: app.c nexa.c radio.c
+	gcc -lm -std=c99 -o pihat minIni.c app.c nexa.c radio.c -l bcm2835
+
